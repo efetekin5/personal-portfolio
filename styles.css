@@ -15,14 +15,14 @@
     width: 51rem;
     position: absolute;
     top: 5.9rem;
-    margin-left: -1rem;
+    margin-left: -2rem;
     box-shadow: 0px 0px 10px black;
 }
 
 .aboutMeTexts {
     width: 55rem;
-    margin-left: 47rem;
-    margin-top: 1rem;
+    margin-left: 46rem;
+    margin-top: -0.8rem;
     background-color: #FFFFFF;
     padding: 2rem;
     padding-left: 5rem;
@@ -69,7 +69,7 @@
     color: white;
     font-size: 11rem;
     font-family: 'Playfair Display', serif;
-    left: 10.5rem;
+    left: 11rem;
     top: 31rem;
 }
 
@@ -80,15 +80,17 @@
 }
 
 .myWork {
-    margin-left: 8.5rem;
+    margin-left: 7.5rem;
 }
 
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 3rem;
+    gap: 0.8rem;
+    row-gap: 8rem;
     margin-top: 1rem;
+    margin-left: 0.4rem;
 }
 
 .project {
@@ -97,10 +99,39 @@
     box-shadow: 0px 0px 10px black;
 }
 
-.screenshot {
-    width: 28rem;
-    background-color: #991b1b;
+.screenshot1,
+.screenshot2,
+.screenshot3,
+.screenshot4,
+.screenshot5,
+.screenshot6 {
+    width: 28.1rem;
     padding: 6rem;
+    margin-left: -0.06rem;
+}
+
+.screenshot1 {
+    background-color: #991b1b;
+}
+
+.screenshot2 {
+    background-color: #a78bfa;
+}
+
+.screenshot3 {
+    background-color: #15803d;
+}
+
+.screenshot4 {
+    background-color: #f9a8d4;
+}
+
+.screenshot5 {
+    background-color: #d97706;
+}
+
+.screenshot6 {
+    background-color: #0284c7;
 }
 
 .screenshotOfProject {
@@ -113,7 +144,7 @@
 .popUpIcon {
     width: 30px;
     height: 30px;
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
 }
 
 .projectHeader {
@@ -123,7 +154,7 @@
 }
 
 .projectName {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: 'Playfair Display', serif;
     font-weight: 100;
 }
@@ -133,7 +164,6 @@
 }
 
 .projectDetails {
-    width: 28rem;
     padding: 1rem;
 }
 
@@ -145,5 +175,8 @@
 .projectDescriptionText {
     width: 25rem;
     font-size: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 4rem;
 }
