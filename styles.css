@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aboutMeContainer {
+    width: 99vw;
+    background: linear-gradient(168deg, #0891B2 55%, white 45%);
+    padding: 10rem;
+}
+
+.portfolioImg {
+    width: 51rem;
+    position: absolute;
+    top: 5.9rem;
+    margin-left: -1rem;
+    box-shadow: 0px 0px 10px black;
+}
+
+.aboutMeTexts {
+    width: 55rem;
+    margin-left: 47rem;
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+    padding: 2rem;
+    padding-left: 5rem;
+    box-shadow: 0px 0px 10px black;
+}
+
+.aboutMePharagraph {
+    width: 48rem;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+}
+
+.aboutMeHeader {
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.github {
+    width: 3rem;
+}
+
+.linkedin {
+    width: 3rem;
+}
+
+.twitter {
+    width: 3rem;
+    color: black;
+}
+
+.socialMediaIcons {
+    display: flex;
+    column-gap: 2rem;
+    margin-left: 35rem;
+    margin-top: 4rem;
+}
+
+.efeTekinHeader {
+    position: absolute;
+    color: white;
+    font-size: 11rem;
+    font-family: 'Playfair Display', serif;
+    left: 10.5rem;
+    top: 31rem;
+}
+
+.myWorkHeader {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.myWork {
+    margin-left: 8.5rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.project {
+    width: 28rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.screenshot {
+    width: 28rem;
+    background-color: #991b1b;
+    padding: 6rem;
+}
+
+.screenshotOfProject {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+}
+
+.popUpIcon {
+    width: 30px;
+    height: 30px;
+    margin-top: 0.5rem;
+}
+
+.projectHeader {
+    display: flex;
+    width: 25rem;
+    column-gap: 2rem;
+}
+
+.projectName {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+
+.projectDescription {
+    width: 28rem;
+}
+
+.projectDetails {
+    width: 28rem;
+    padding: 1rem;
+}
+
+.descriptionGithub {
+    width: 2rem;
+    margin-left: auto;
+}
+
+.projectDescriptionText {
+    width: 25rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
