@@ -1,167 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header class="aboutMeContainer">
+      <img
+        src="headerImg.png"
+        class="portfolioImg"
+        sizes="100vw"
+        srcset="
+          images/image200.jpg   200w,
+          images/image537.jpg   537w,
+          images/image793.jpg   793w,
+          images/image1019.jpg 1019w,
+          images/image1189.jpg 1189w,
+          images/image1380.jpg 1380w,
+          images/image1400.jpg 1400w
+        "
+        alt=""
+      />
 
-        <img src="portfolioImg.jpg" class="portfolioImg" alt="">
-        <h1 class="efeTekinHeader">Efe Tekin</h1>
+      <h1 class="efeTekinHeader">Efe Tekin</h1>
 
-        <div class="aboutMeTexts">
-            <h4 class="aboutMeHeader">About Me</h4>
-            <p class="aboutMePharagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere, justo sed vulputate viverra, ex lacus vulputate odio, non lobortis nunc justo id purus. Mauris libero nulla, vehicula eu eleifend id, viverra quis arcu. In hac habitasse platea dictumst. Aliquam tincidunt auctor eleifend. Suspendisse euismod sed ex ut dignissim. Nulla fermentum feugiat tincidunt. Sed diam magna, sagittis sit amet nunc a, euismod sodales augue.</p>
-            <div class="socialMediaIcons">
-                <img class="github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github"/>
-                <img class="linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="linkedin"/>
-                <img class="twitter" src="twitter.png" alt="twitter"/>
-            </div>
+      <div class="aboutMeTexts">
+        <div class="spacer"></div>
+
+        <h4 class="aboutMeHeader">About Me</h4>
+
+        <p class="aboutMePharagraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          posuere, justo sed vulputate viverra, ex lacus vulputate odio, non
+          lobortis nunc justo id purus. Mauris libero nulla, vehicula eu
+          eleifend id, viverra quis arcu. In hac habitasse platea dictumst.
+          Aliquam tincidunt auctor eleifend. Suspendisse euismod sed ex ut
+          dignissim. Nulla fermentum feugiat tincidunt. Sed diam magna, sagittis
+          sit amet nunc a, euismod sodales augue.
+        </p>
+
+        <div class="socialMediaIcons">
+          <img
+            class="github"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            alt="github"
+          />
+          <img
+            class="linkedin"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+            alt="linkedin"
+          />
+          <img class="twitter" src="twitter.png" alt="twitter" />
         </div>
+      </div>
     </header>
 
     <main class="myWork">
-        <h2 class="myWorkHeader">My Work</h2>
+      <h2 class="myWorkHeader">My Work</h2>
 
-        <div class="projects">
-            <div class="project">
-                <div class="screenshot1">
-                    <h5 class="screenshotOfProject">screenshot of project</h5>
-                </div>
+      <div class="projects">
+        <div class="project">
+          <div class="screenshot1">
+            <h5 class="screenshotOfProject">screenshot of project</h5>
+          </div>
 
-                <div class="projectDetails">
-                    <div class="projectHeader">
-                        <h6 class="projectName">Project name</h6>
-                        <img class="descriptionGithub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github"/>
-                        <img src="popUp.png" class="popUpIcon">
-                    </div>
-
-                    <div class="projectDescription">
-                        <p class="projectDescriptionText">Short description of the project. Just a couple of sentences will do.</p>
-                    </div>
-                </div>
+          <div class="projectDetails">
+            <div class="projectHeader">
+              <h6 class="projectName">Project name</h6>
+              <img
+                class="descriptionGithub"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="github"
+              />
+              <img src="popUp.png" class="popUpIcon" />
             </div>
 
-            <div class="project">
-                <div class="screenshot2">
-                    <h5 class="screenshotOfProject">screenshot of project</h5>
-                </div>
-
-                <div class="projectDetails">
-                    <div class="projectHeader">
-                        <h6 class="projectName">Project name</h6>
-                        <img class="descriptionGithub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github"/>
-                        <img src="popUp.png" class="popUpIcon">
-                    </div>
-
-                    <div class="projectDescription">
-                        <p class="projectDescriptionText">Short description of the project. Just a couple of sentences will do.</p>
-                    </div>
-                </div>
+            <div class="projectDescription">
+              <p class="projectDescriptionText">
+                Short description of the project. Just a couple of sentences
+                will do.
+              </p>
             </div>
-
-            <div class="project">
-                <div class="screenshot3">
-                    <h5 class="screenshotOfProject">screenshot of project</h5>
-                </div>
-
-                <div class="projectDetails">
-                    <div class="projectHeader">
-                        <h6 class="projectName">Project name</h6>
-                        <img class="descriptionGithub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github"/>
-                        <img src="popUp.png" class="popUpIcon">
-                    </div>
-
-                    <div class="projectDescription">
-                        <p class="projectDescriptionText">Short description of the project. Just a couple of sentences will do.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="screenshot4">
-                    <h5 class="screenshotOfProject">screenshot of project</h5>
-                </div>
-
-                <div class="projectDetails">
-                    <div class="projectHeader">
-                        <h6 class="projectName">Project name</h6>
-                        <img class="descriptionGithub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github"/>
-                        <img src="popUp.png" class="popUpIcon">
-                    </div>
-
-                    <div class="projectDescription">
-                        <p class="projectDescriptionText">Short description of the project. Just a couple of sentences will do.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="screenshot5">
-                    <h5 class="screenshotOfProject">screenshot of project</h5>
-                </div>
-
-                <div class="projectDetails">
-                    <div class="projectHeader">
-                        <h6 class="projectName">Project name</h6>
-                        <img class="descriptionGithub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github"/>
-                        <img src="popUp.png" class="popUpIcon">
-                    </div>
-
-                    <div class="projectDescription">
-                        <p class="projectDescriptionText">Short description of the project. Just a couple of sentences will do.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="screenshot6">
-                    <h5 class="screenshotOfProject">screenshot of project</h5>
-                </div>
-
-                <div class="projectDetails">
-                    <div class="projectHeader">
-                        <h6 class="projectName">Project name</h6>
-                        <img class="descriptionGithub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github"/>
-                        <img src="popUp.png" class="popUpIcon">
-                    </div>
-
-                    <div class="projectDescription">
-                        <p class="projectDescriptionText">Short description of the project. Just a couple of sentences will do.</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="project">
+          <div class="screenshot2">
+            <h5 class="screenshotOfProject">screenshot of project</h5>
+          </div>
+
+          <div class="projectDetails">
+            <div class="projectHeader">
+              <h6 class="projectName">Project name</h6>
+              <img
+                class="descriptionGithub"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="github"
+              />
+              <img src="popUp.png" class="popUpIcon" />
+            </div>
+
+            <div class="projectDescription">
+              <p class="projectDescriptionText">
+                Short description of the project. Just a couple of sentences
+                will do.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="screenshot3">
+            <h5 class="screenshotOfProject">screenshot of project</h5>
+          </div>
+
+          <div class="projectDetails">
+            <div class="projectHeader">
+              <h6 class="projectName">Project name</h6>
+              <img
+                class="descriptionGithub"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="github"
+              />
+              <img src="popUp.png" class="popUpIcon" />
+            </div>
+
+            <div class="projectDescription">
+              <p class="projectDescriptionText">
+                Short description of the project. Just a couple of sentences
+                will do.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="screenshot4">
+            <h5 class="screenshotOfProject">screenshot of project</h5>
+          </div>
+
+          <div class="projectDetails">
+            <div class="projectHeader">
+              <h6 class="projectName">Project name</h6>
+              <img
+                class="descriptionGithub"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="github"
+              />
+              <img src="popUp.png" class="popUpIcon" />
+            </div>
+
+            <div class="projectDescription">
+              <p class="projectDescriptionText">
+                Short description of the project. Just a couple of sentences
+                will do.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="screenshot5">
+            <h5 class="screenshotOfProject">screenshot of project</h5>
+          </div>
+
+          <div class="projectDetails">
+            <div class="projectHeader">
+              <h6 class="projectName">Project name</h6>
+              <img
+                class="descriptionGithub"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="github"
+              />
+              <img src="popUp.png" class="popUpIcon" />
+            </div>
+
+            <div class="projectDescription">
+              <p class="projectDescriptionText">
+                Short description of the project. Just a couple of sentences
+                will do.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="screenshot6">
+            <h5 class="screenshotOfProject">screenshot of project</h5>
+          </div>
+
+          <div class="projectDetails">
+            <div class="projectHeader">
+              <h6 class="projectName">Project name</h6>
+              <img
+                class="descriptionGithub"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="github"
+              />
+              <img src="popUp.png" class="popUpIcon" />
+            </div>
+
+            <div class="projectDescription">
+              <p class="projectDescriptionText">
+                Short description of the project. Just a couple of sentences
+                will do.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
-        <div class="footerTexts">
-            <h1 class="footerContactMe">Contact me</h1>
-            <p class="getInTouch">Please get in touch if you think our work could be mutually beneficial!</p>
-            <p class="randomRoad">1234 Random Road</p>
-            <p class="randomTown">Random Town, California 12345</p>
+      <div class="footerTexts">
+        <h1 class="footerContactMe">Contact me</h1>
+        <p class="getInTouch">
+          Please get in touch if you think our work could be mutually
+          beneficial!
+        </p>
+        <p class="randomRoad">1234 Random Road</p>
+        <p class="randomTown">Random Town, California 12345</p>
 
-            <div class="phoneNumberInfo">
-                <svg class="phoneIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>phone</title><path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
-                <p class="phoneNumber">555-555-5555</p>
-            </div>
-
-            <div class="emailInfo">
-                <svg class="emailIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>email</title><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-                <p class="email">ashleywilliams.is.not.real@gmail.com</p>
-            </div>
-
-            <div class="footerSocialIcons">
-                <img class="footerGithub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github"/>
-                <img class="footerLinkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="linkedin"/>
-                <img class="footerTwitter" src="twitter.png" alt="twitter">
-            </div>
+        <div class="phoneNumberInfo">
+          <svg
+            class="phoneIcon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <title>phone</title>
+            <path
+              d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"
+            />
+          </svg>
+          <p class="phoneNumber">555-555-5555</p>
         </div>
 
-        <img src="portfolioImg.jpg" class="footerImg" alt="">
+        <div class="emailInfo">
+          <svg
+            class="emailIcon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <title>email</title>
+            <path
+              d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"
+            />
+          </svg>
+          <p class="email">ashleywilliams@gmail.com</p>
+        </div>
+
+        <div class="footerSocialIcons">
+          <img
+            class="footerGithub"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            alt="github"
+          />
+          <img
+            class="footerLinkedin"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+            alt="linkedin"
+          />
+          <img class="footerTwitter" src="twitter.png" alt="twitter" />
+        </div>
+      </div>
+
+      <img src="portfolioImg.jpg" class="footerImg" alt="" />
     </footer>
-</body>
+  </body>
 </html>
