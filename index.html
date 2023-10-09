@@ -11,15 +11,15 @@
       <img
         src="headerImg.png"
         class="portfolioImg"
-        sizes="100vw"
+        sizes="sizes=(max-width: 800px) 80vw, (max-width: 1000px) 544px, (max-width: 1200px) 544px, (max-width: 1488px) 688px, 688px"
         srcset="
-          images/image200.jpg   200w,
-          images/image537.jpg   537w,
-          images/image793.jpg   793w,
-          images/image1019.jpg 1019w,
-          images/image1189.jpg 1189w,
-          images/image1380.jpg 1380w,
-          images/image1400.jpg 1400w
+          headerImages/image200.jpg   200w,
+          headerImages/image537.jpg   537w,
+          headerImages/image793.jpg   793w,
+          headerImages/image1019.jpg 1019w,
+          headerImages/image1189.jpg 1189w,
+          headerImages/image1380.jpg 1380w,
+          headerImages/image1400.jpg 1400w
         "
         alt=""
       />
@@ -266,7 +266,18 @@
         </div>
       </div>
 
-      <img src="portfolioImg.jpg" class="footerImg" alt="" />
+      <img
+        sizes="(max-width: 800px) 100vw, (max-width: 1000px) 560px, (max-width: 1200px) 600px, (max-width: 1488px) 50vw, 640px"
+        srcset="
+        footerImages/200w.jpg 200w,
+        footerImages/640w.jpg 640w,
+        footerImages/888w.jpg 888w,
+        footerImages/1134w.jpg 1134w,
+        footerImages/1354w.jpg 1354w,
+        footerImages/1400w.jpg 1400w"
+        src="portfolioImg.jpg" 
+        class="footerImg" 
+      alt=""/>
     </footer>
   </body>
 </html>
